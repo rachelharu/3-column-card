@@ -1,12 +1,12 @@
 body {
-  Font-size: 15px
+  font-size: 15px;
 }
 
 h2 {
   font-family: 'Big Shoulders Display', cursive;
   padding: 5% 0 5%;
   color:hsl(0, 0%, 95%);
-
+padding-left: 25px;
 
 }
 
@@ -14,10 +14,25 @@ p {
   font-family: 'Lexend Deca',  sans-serif;
   font-weight: 400;
   color: hsla(0, 0%, 100%, 0.75);
+  padding-left: 25px;
+  padding-bottom:60px;
+  padding-right: 25px;
 }
 
 svg {
-  margin: 25px 0 25px;
+  margin: 35px 0px 25px 25px;
+
+}
+
+.btn{
+  margin-left: 25px;
+  margin-bottom: 40px;
+  border-radius:30px;
+  font-size: 15px;
+}
+
+.btn-text {
+  padding: 3px 10px 3px 10px;
 }
 
 .btn1 {
@@ -60,17 +75,20 @@ svg {
 
 
 .container {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 30px;
+  position: flex;
+  align-items:center;
+  height:200px;
+ margin-top:150px;
+  /* top: 50%; */
+  /* left: 50%; */
+   /* transform: translate(-50%, -50%);   */
+  border-radius: 15px;
   border: 1px ;
 }
 
 .col1 {
   background-color: hsl(31, 77%, 52%);
-  border-radius: 30px 0px 0px 30px;
+  border-radius: 10px 0px 0px 10px;
 }
 
 .col2 {
@@ -79,7 +97,7 @@ svg {
 
 .col3 {
   background-color: hsl(179, 100%, 13%);
-  border-radius: 0px 30px 30px 0px;
+  border-radius: 0px 10px 10px 0px;
 }
 
 .col-sm {
@@ -97,10 +115,15 @@ svg {
   }
 
   .col1 {
-    border-radius: 30px 30px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
   }
 
   .col3 {
-    border-radius: 0px 0px 30px 30px;
+    border-radius: 0px 0px 10px 10px;
   }
+  
+  .container{
+    margin-top: 0px;
+  }
+
 }
