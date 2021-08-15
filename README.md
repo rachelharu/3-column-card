@@ -17,8 +17,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [rachel](https://github.com/rachelharu)
-
-
-
- 
+- Website - [github](https://github.com/rachelharu)
